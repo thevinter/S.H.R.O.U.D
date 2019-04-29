@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 14ee7239f8b55634091b1c487f780b18
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3246972718833291567
+    second: BASTA_0
+  - first:
+      213: -6940713637211395726
+    second: BASTA_1
+  - first:
+      213: 4103625453828148993
+    second: BASTA_2
+  - first:
+      213: -3128616076517855547
+    second: BASTA_3
+  - first:
+      213: -4774727812942211803
+    second: BASTA_4
+  - first:
+      213: 8695501062532970250
+    second: BASTA_5
+  - first:
+      213: 2714318457854321508
+    second: BASTA_6
+  - first:
+      213: 6176968900592199662
+    second: BASTA_7
+  - first:
+      213: -886411783911524961
+    second: BASTA_8
+  - first:
+      213: 5538537422800637861
+    second: BASTA_9
+  - first:
+      213: 8551416461898551373
+    second: BASTA_10
+  - first:
+      213: 7748197105421109997
+    second: BASTA_11
+  - first:
+      213: 6351020915765884818
+    second: BASTA_13
+  - first:
+      213: 5326155796614857639
+    second: BASTA_14
+  - first:
+      213: 5130362086954570230
+    second: BASTA_17
+  - first:
+      213: 5503492593792181592
+    second: BASTA_18
+  - first:
+      213: -2403249755407397452
+    second: BASTA_19
+  - first:
+      213: -5500472939374186073
+    second: BASTA_20
+  - first:
+      213: 4447309547609657254
+    second: BASTA_21
+  - first:
+      213: -2010318973213670803
+    second: BASTA_22
+  - first:
+      213: -5582349916374829464
+    second: BASTA_23
+  - first:
+      213: 5278578592295467160
+    second: BASTA_24
+  - first:
+      213: 2820196136331534721
+    second: BASTA_12
+  - first:
+      213: -6958691826747990741
+    second: BASTA_15
+  - first:
+      213: -9018958269022000168
+    second: BASTA_16
+  - first:
+      213: -3302065798024661685
+    second: BASTA_25
+  - first:
+      213: 9060610611110831937
+    second: BASTA_26
+  - first:
+      213: -4927897834085210044
+    second: BASTA_27
+  - first:
+      213: 4975901076018851603
+    second: BASTA_28
+  - first:
+      213: -8578529242497919892
+    second: BASTA_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BASTA_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 231
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c8419c40e513142bd184e5283e48c4
+      internalID: -3246972718833291567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 229
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff2bb38b37f48841a9e9289256f1015
+      internalID: -6940713637211395726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 232
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88ff7b458ff97649899aa9e98a7ab6a
+      internalID: 4103625453828148993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 240
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c526d7c4216d7814b8ed41ff3f7c2e9e
+      internalID: -3128616076517855547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 232
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f95a465722d7744a18c20d5a8f4ecd
+      internalID: -4774727812942211803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_5
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 236
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9768179b3632754291511d9e7d3e8d7
+      internalID: 8695501062532970250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_6
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 236
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f7dcfbef0db1441ba089baf34e7746
+      internalID: 2714318457854321508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3b9918b6376cb4a9e16ef8a8d2adb7
+      internalID: 6176968900592199662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 176
+        width: 14
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff94969d67e579499ca1b11cf513167
+      internalID: -886411783911524961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_9
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 180
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a78d38bbe0f8f4fbb349e435603977
+      internalID: 5538537422800637861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_10
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 212
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c0f12d5bd75b54eb5900cb6beb6c6f
+      internalID: 8551416461898551373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_11
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 180
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e523f5e859657c448703db90efc0e3e
+      internalID: 7748197105421109997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_13
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 173
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5623231811065bb4da1f131fb5116760
+      internalID: 6351020915765884818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_14
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 205
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294ec87347ff15946b1ab22c54b93945
+      internalID: 5326155796614857639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_17
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 130
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db58af4ae8f6c63488985b18603b599d
+      internalID: 5130362086954570230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_18
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 131
+        width: 6
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f21b5619c2815458181be2f1071622
+      internalID: 5503492593792181592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_20
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 131
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a07cdb755e9efa44b2796a7614a7382
+      internalID: -5500472939374186073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 34
+        width: 218
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 104, y: 2, z: 104, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4d3482098897a48a25b95e275c5b34
+      internalID: 4447309547609657254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_22
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 176
+        width: 8
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a9936b67262b54f8ee0c0620e48715
+      internalID: -2010318973213670803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_23
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 198
+        width: 7
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde936d5d19747340be5dedd27fa181c
+      internalID: -5582349916374829464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_24
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 166
+        width: 5
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d02db19cb60764ca90141530ff8381
+      internalID: 5278578592295467160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_12
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 208
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3bff75785e7884bba57a0d171ee5f4
+      internalID: 2820196136331534721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_15
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 209
+        width: 4
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1922a3f1290fa5448c9f42503fd31a5
+      internalID: -6958691826747990741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_16
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 199
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2731be2748074b468700a38855ca11d
+      internalID: -9018958269022000168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_25
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 166
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f8eea02b7c2094eaabb90c85367957
+      internalID: -3302065798024661685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_26
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 130
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ba8730f561d1c43a05a2a634cdc496
+      internalID: 9060610611110831937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_19
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 212
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb2bd119696dfa48b5dbaf7aa4002e7
+      internalID: -2403249755407397452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_27
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 206
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30feaba3f8467b144bed2b162fdeb927
+      internalID: -4927897834085210044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_28
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 207
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235503edcdcb33d41919065a2a110f0b
+      internalID: 4975901076018851603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASTA_29
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 209
+        width: 3
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c6f23e5ac5e7c4e919d7c8b2b523b7
+      internalID: -8578529242497919892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a31ab272b437b8c4f92ad32cac7ef735
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 8a23be9692e802941914a30b88b4c834
+=======
+<<<<<<< HEAD:Assets/Scripts/Objects/BedScript.cs.meta
+guid: 9ee32f8c103784f4cbae47f8b050ffd5
+=======
+guid: 8a23be9692e802941914a30b88b4c834
+>>>>>>> aa3ec7cf5b8446dc37f194d5f8809b98fe77c763:Assets/Scripts/Objects/Drop.cs.meta
+>>>>>>> aa3ec7cf5b8446dc37f194d5f8809b98fe77c763
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

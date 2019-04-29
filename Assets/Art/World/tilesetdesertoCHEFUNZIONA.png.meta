@@ -1,0 +1,2200 @@
+fileFormatVersion: 2
+guid: dcc3199a5dcef9946a71841844af00ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5532188975573914707
+    second: tilesetdesertoCHEFUNZIONA_0
+  - first:
+      213: 6423449441452338645
+    second: tilesetdesertoCHEFUNZIONA_1
+  - first:
+      213: -4353907058290730224
+    second: tilesetdesertoCHEFUNZIONA_2
+  - first:
+      213: 1794357327911083200
+    second: tilesetdesertoCHEFUNZIONA_3
+  - first:
+      213: 651072266402952976
+    second: tilesetdesertoCHEFUNZIONA_4
+  - first:
+      213: -7142101957712224859
+    second: tilesetdesertoCHEFUNZIONA_5
+  - first:
+      213: -7195831363319932511
+    second: tilesetdesertoCHEFUNZIONA_6
+  - first:
+      213: 5572171220609701113
+    second: tilesetdesertoCHEFUNZIONA_7
+  - first:
+      213: 8375721311831578634
+    second: tilesetdesertoCHEFUNZIONA_8
+  - first:
+      213: 6936818741929907784
+    second: tilesetdesertoCHEFUNZIONA_9
+  - first:
+      213: -3087208582398819762
+    second: tilesetdesertoCHEFUNZIONA_10
+  - first:
+      213: -8981488876683839341
+    second: tilesetdesertoCHEFUNZIONA_11
+  - first:
+      213: 3397076464504700995
+    second: tilesetdesertoCHEFUNZIONA_12
+  - first:
+      213: -6639696645338109280
+    second: tilesetdesertoCHEFUNZIONA_13
+  - first:
+      213: 4461542968695769445
+    second: tilesetdesertoCHEFUNZIONA_14
+  - first:
+      213: -8601413117479729490
+    second: tilesetdesertoCHEFUNZIONA_15
+  - first:
+      213: 7921496396746958603
+    second: tilesetdesertoCHEFUNZIONA_16
+  - first:
+      213: -7044036532025158233
+    second: tilesetdesertoCHEFUNZIONA_17
+  - first:
+      213: 8283009825804525976
+    second: tilesetdesertoCHEFUNZIONA_18
+  - first:
+      213: 6125742311419399856
+    second: tilesetdesertoCHEFUNZIONA_19
+  - first:
+      213: 8755335279316674350
+    second: tilesetdesertoCHEFUNZIONA_20
+  - first:
+      213: 5463952003010258889
+    second: tilesetdesertoCHEFUNZIONA_21
+  - first:
+      213: 756163806355906258
+    second: tilesetdesertoCHEFUNZIONA_22
+  - first:
+      213: 7887604186750968072
+    second: tilesetdesertoCHEFUNZIONA_23
+  - first:
+      213: -5740541199547085606
+    second: tilesetdesertoCHEFUNZIONA_24
+  - first:
+      213: 7603709660807166001
+    second: tilesetdesertoCHEFUNZIONA_25
+  - first:
+      213: -7652638590550367597
+    second: tilesetdesertoCHEFUNZIONA_26
+  - first:
+      213: 7834953131533564422
+    second: tilesetdesertoCHEFUNZIONA_27
+  - first:
+      213: 9127325911136635530
+    second: tilesetdesertoCHEFUNZIONA_28
+  - first:
+      213: -8767236592278507314
+    second: tilesetdesertoCHEFUNZIONA_29
+  - first:
+      213: -434539790287349220
+    second: tilesetdesertoCHEFUNZIONA_30
+  - first:
+      213: 6892641974286239030
+    second: tilesetdesertoCHEFUNZIONA_31
+  - first:
+      213: -6424107925684796351
+    second: tilesetdesertoCHEFUNZIONA_32
+  - first:
+      213: 1018523614088205661
+    second: tilesetdesertoCHEFUNZIONA_33
+  - first:
+      213: -8256795205888690073
+    second: tilesetdesertoCHEFUNZIONA_34
+  - first:
+      213: 6313393329614958917
+    second: tilesetdesertoCHEFUNZIONA_35
+  - first:
+      213: -2690426407650702898
+    second: tilesetdesertoCHEFUNZIONA_36
+  - first:
+      213: 588836724952825242
+    second: tilesetdesertoCHEFUNZIONA_37
+  - first:
+      213: -6003320551184399224
+    second: tilesetdesertoCHEFUNZIONA_38
+  - first:
+      213: -7319983463993229228
+    second: tilesetdesertoCHEFUNZIONA_39
+  - first:
+      213: -4275301663379515254
+    second: tilesetdesertoCHEFUNZIONA_40
+  - first:
+      213: -8527065440329559226
+    second: tilesetdesertoCHEFUNZIONA_41
+  - first:
+      213: 4696167019356766911
+    second: tilesetdesertoCHEFUNZIONA_42
+  - first:
+      213: 6790973525312836308
+    second: tilesetdesertoCHEFUNZIONA_43
+  - first:
+      213: 4820981091700544237
+    second: tilesetdesertoCHEFUNZIONA_44
+  - first:
+      213: -1697639507413066616
+    second: tilesetdesertoCHEFUNZIONA_45
+  - first:
+      213: 5535572850799762462
+    second: tilesetdesertoCHEFUNZIONA_46
+  - first:
+      213: -1564155927131365448
+    second: tilesetdesertoCHEFUNZIONA_47
+  - first:
+      213: 4336727774008609022
+    second: tilesetdesertoCHEFUNZIONA_48
+  - first:
+      213: -3334004374006988993
+    second: tilesetdesertoCHEFUNZIONA_49
+  - first:
+      213: -1273204428803204563
+    second: tilesetdesertoCHEFUNZIONA_50
+  - first:
+      213: 3520316147312044529
+    second: tilesetdesertoCHEFUNZIONA_51
+  - first:
+      213: 2818171803518328570
+    second: tilesetdesertoCHEFUNZIONA_52
+  - first:
+      213: 8617202287006326633
+    second: tilesetdesertoCHEFUNZIONA_53
+  - first:
+      213: -4666869176841375798
+    second: tilesetdesertoCHEFUNZIONA_54
+  - first:
+      213: -593741064575337592
+    second: tilesetdesertoCHEFUNZIONA_55
+  - first:
+      213: 9016663877450163999
+    second: tilesetdesertoCHEFUNZIONA_56
+  - first:
+      213: 4728656073307324381
+    second: tilesetdesertoCHEFUNZIONA_57
+  - first:
+      213: -3063903541925225263
+    second: tilesetdesertoCHEFUNZIONA_58
+  - first:
+      213: 4208537285424468333
+    second: tilesetdesertoCHEFUNZIONA_59
+  - first:
+      213: -3656463622046021034
+    second: tilesetdesertoCHEFUNZIONA_60
+  - first:
+      213: 7170987380247022755
+    second: tilesetdesertoCHEFUNZIONA_61
+  - first:
+      213: -4623274147754449806
+    second: tilesetdesertoCHEFUNZIONA_62
+  - first:
+      213: 2554867850891724564
+    second: tilesetdesertoCHEFUNZIONA_63
+  - first:
+      213: -3111117854281662220
+    second: tilesetdesertoCHEFUNZIONA_64
+  - first:
+      213: -3599894030947123500
+    second: tilesetdesertoCHEFUNZIONA_65
+  - first:
+      213: -7730610253713647561
+    second: tilesetdesertoCHEFUNZIONA_66
+  - first:
+      213: -8961208961466708348
+    second: tilesetdesertoCHEFUNZIONA_67
+  - first:
+      213: -6521112235290641466
+    second: tilesetdesertoCHEFUNZIONA_68
+  - first:
+      213: 2148363127921385520
+    second: tilesetdesertoCHEFUNZIONA_69
+  - first:
+      213: -1888867750806702443
+    second: tilesetdesertoCHEFUNZIONA_70
+  - first:
+      213: -8690691733749509349
+    second: tilesetdesertoCHEFUNZIONA_71
+  - first:
+      213: -4802222820088038512
+    second: tilesetdesertoCHEFUNZIONA_72
+  - first:
+      213: 4544010921194844167
+    second: tilesetdesertoCHEFUNZIONA_73
+  - first:
+      213: -3256536403298214255
+    second: tilesetdesertoCHEFUNZIONA_74
+  - first:
+      213: -3337032692763990208
+    second: tilesetdesertoCHEFUNZIONA_75
+  - first:
+      213: -318052551783604091
+    second: tilesetdesertoCHEFUNZIONA_76
+  - first:
+      213: 5539634550366828073
+    second: tilesetdesertoCHEFUNZIONA_77
+  - first:
+      213: 5049286409226931576
+    second: tilesetdesertoCHEFUNZIONA_78
+  - first:
+      213: -5403802752967088148
+    second: tilesetdesertoCHEFUNZIONA_79
+  - first:
+      213: -8393680739462161244
+    second: tilesetdesertoCHEFUNZIONA_80
+  - first:
+      213: -721804147096509086
+    second: tilesetdesertoCHEFUNZIONA_81
+  - first:
+      213: -2653940128043621432
+    second: tilesetdesertoCHEFUNZIONA_82
+  - first:
+      213: 23267187349474306
+    second: tilesetdesertoCHEFUNZIONA_83
+  - first:
+      213: -4057708320216401422
+    second: tilesetdesertoCHEFUNZIONA_84
+  - first:
+      213: -5390236692995179390
+    second: tilesetdesertoCHEFUNZIONA_85
+  - first:
+      213: 7252419154104261847
+    second: tilesetdesertoCHEFUNZIONA_86
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbec64e80d7b5bb44a84bb4d9851ec34
+      internalID: -5532188975573914707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522cfac5dd121574b851a09e230f8b52
+      internalID: 6423449441452338645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6668438acb1d34394eabb0b5f26157
+      internalID: -4353907058290730224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03de76cfc5d090c46af87606956eab5f
+      internalID: 1794357327911083200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b410882ad01d2f046a26e814c40984d3
+      internalID: 651072266402952976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7dfe2f94ab3474fb22919e828ec709
+      internalID: -7142101957712224859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6b04886e2e16649800f96b28102284
+      internalID: -7195831363319932511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f996e9c023ec484db8b2f6b1518145c
+      internalID: 5572171220609701113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0beeed8fce6cdea45bf3ecd2e52d9145
+      internalID: 8375721311831578634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ff56b0e0ef68d498b72cc924106df5
+      internalID: 6936818741929907784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d524e07d33f1c4cab86024ecb06d8b
+      internalID: -3087208582398819762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfe5515b383f2e45ba32e88c8edbdc4
+      internalID: -8981488876683839341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ca2b3dc2307ec4f92a5416aed8d95e
+      internalID: 3397076464504700995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b8db0b645db414381d31fdb1f618dc
+      internalID: -6639696645338109280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0c3d4562063f34281a45d752038706
+      internalID: 4461542968695769445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0ee96ac7fab8e418fc7181b09cfba7
+      internalID: -8601413117479729490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b7c984d63bf2043a11d179e9fb29e3
+      internalID: 7921496396746958603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6bc964b2db0184fb8ad01ec861d373
+      internalID: -7044036532025158233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db707e5e476f5b4b9281c553a3d38ed
+      internalID: 8283009825804525976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f00f99a312e04740a8d424b40f879a7
+      internalID: 6125742311419399856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_20
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474c02c9f29428a4ea34737e4f0b3f7a
+      internalID: 8755335279316674350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cc4e6a4ef82294e894afdc21f60956
+      internalID: 5463952003010258889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_22
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46881038640195c4bb2bb83d8b298e0f
+      internalID: 756163806355906258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90881cf34c29c345a4c7f3838a58799
+      internalID: 7887604186750968072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_24
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9210734f63604274aa5b7cfd55af9778
+      internalID: -5740541199547085606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc277fbf446a18a4f82bc867584db778
+      internalID: 7603709660807166001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 404
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af015bb291c1c6746b0cca06f5203ed4
+      internalID: -7652638590550367597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 404
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20051875b1f2f2248bd89f8fecde2650
+      internalID: 7834953131533564422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 404
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274def81ba4cbca48a911a39c271219a
+      internalID: 9127325911136635530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 404
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e73f64451272f24d849d7f655112a12
+      internalID: -8767236592278507314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 404
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec837c1eb6c7f1b4a8619a1b42f5c57d
+      internalID: -434539790287349220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_31
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 404
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542be0122c37d01419efdd8fc9568f42
+      internalID: 6892641974286239030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_32
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 404
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172c6efd47bd24047a4b1e198be36096
+      internalID: -6424107925684796351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 404
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0ccac027bff734ebc58cefc21e70a5
+      internalID: 1018523614088205661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141fa4543f4b05a489fda28e8c20c35e
+      internalID: -8256795205888690073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9c2bc4c3afe934ebd0c6b8f7dd609c
+      internalID: 6313393329614958917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de73fa0076621244a661eb29b3995ee
+      internalID: -2690426407650702898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ceb1d10f77774147af3c4c4581d0027
+      internalID: 588836724952825242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2681772f94fad034da2a62f01ad20cfc
+      internalID: -6003320551184399224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_39
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2a2eed104024b468d14a819a047087
+      internalID: -7319983463993229228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a405c4eb0170e44aa2a23eaf95427b1
+      internalID: -4275301663379515254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_41
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211d9261881fb6c4f8dac9471bf91d22
+      internalID: -8527065440329559226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_42
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d12094df527e54ab6546a2d8b6397e
+      internalID: 4696167019356766911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_43
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84e4a3d214767f4b83a497774370b54
+      internalID: 6790973525312836308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9773caef4d62dab4c9d2d3d190530c03
+      internalID: 4820981091700544237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_45
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 340
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c437f599d68c9584ba456b9e51143c02
+      internalID: -1697639507413066616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 340
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af0d7688e8d6d74db01a466aff6c446
+      internalID: 5535572850799762462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 340
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ab0e2b84a9bb84b8237cf9e3f6d202
+      internalID: -1564155927131365448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 340
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd00b724c63cf941b2090332ddb9424
+      internalID: 4336727774008609022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_49
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 340
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edad9d50e8fe18e49a3deeb3c0c24120
+      internalID: -3334004374006988993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 340
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e686abea43a4a4c8c0f99c5ea1f263
+      internalID: -1273204428803204563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_51
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 340
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79ae79c9378be242b0cb3023fe0b84c
+      internalID: 3520316147312044529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 340
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa29fc3e91208c4dbf49fd03d5eec15
+      internalID: 2818171803518328570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_53
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 340
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f15e01409292c94ab31f7f3d911a1f2
+      internalID: 8617202287006326633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_54
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 340
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad70d144cac4364da2e1669d670ebd7
+      internalID: -4666869176841375798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_55
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 340
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f53fa453b0ed99439703e9ae15efc13
+      internalID: -593741064575337592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_56
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 340
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92d4fd721c4fcd4dae1669f0f3f4c7b
+      internalID: 9016663877450163999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb02c2e971dd8343b3e017cf824f429
+      internalID: 4728656073307324381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_58
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2127cb213d5629c4a83b4b823df97842
+      internalID: -3063903541925225263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_59
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68b9ffd4c064fa4d8617b6031262e25
+      internalID: 4208537285424468333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_60
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16777a146a8e99344806a0c87cf58c30
+      internalID: -3656463622046021034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080d4bb1e2d891c479604bda79630849
+      internalID: 7170987380247022755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_62
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5ef1e2485dfa649ac7757948ce8f09
+      internalID: -4623274147754449806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb37d1d5d01b53245a654cd49d5c28a0
+      internalID: 2554867850891724564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_64
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abb2b28e49b3d440adba7163f86f09c
+      internalID: -3111117854281662220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_65
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0592683582fd1a240925687dc52ca432
+      internalID: -3599894030947123500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_66
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1923842315e1bfc4e80600d7318a38a6
+      internalID: -7730610253713647561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_67
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a48ea918942b3141bb3e38106b8d8a5
+      internalID: -8961208961466708348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_68
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a994433c5dec56945bce8dfc895434ec
+      internalID: -6521112235290641466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f726df25959694487b276f0f55e886
+      internalID: 2148363127921385520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_70
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 276
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9f07c9616bed8488773b5a1a24642a
+      internalID: -1888867750806702443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_71
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 276
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2882d6a5c9494364586591c4b2df3c7f
+      internalID: -8690691733749509349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 276
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63beb1b9404b3a340924974190c78dc2
+      internalID: -4802222820088038512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_73
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 276
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70afaacac5546045b81833645ae59c9
+      internalID: 4544010921194844167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_74
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 276
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5023acee27be446be408671a6be848
+      internalID: -3256536403298214255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_75
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 276
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877c04dc8574b134293239fc3dae5940
+      internalID: -3337032692763990208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_76
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 276
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fd96f43efe64644bab5d10550eebc8
+      internalID: -318052551783604091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_77
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 276
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f0430e37308d748b8ed6cb166f8c3d
+      internalID: 5539634550366828073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_78
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 276
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73db946f859e614f90b8c858ac85391
+      internalID: 5049286409226931576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 244
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638a9e3ed9f0fa14e9e5112a7869b891
+      internalID: -5403802752967088148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_80
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 244
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6a45ca8ba3d724fb5d1a982eb8575e
+      internalID: -8393680739462161244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 244
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1479d948218f2c4e81c517b3871310d
+      internalID: -721804147096509086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_82
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 244
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2809cc437cc7eff408cdb3a814da9ab5
+      internalID: -2653940128043621432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_83
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 244
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4304ba2bc99af547b9d5b41d27ec7fd
+      internalID: 23267187349474306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_84
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25e776714721064f9dd36f7ed676a47
+      internalID: -4057708320216401422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_85
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fd3eee6fd47044f8b241b39a2504f0
+      internalID: -5390236692995179390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetdesertoCHEFUNZIONA_86
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9e0de37dead8e4b9b0a2fc4966eade
+      internalID: 7252419154104261847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b48908d1c445aa24e863978aa011a536
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

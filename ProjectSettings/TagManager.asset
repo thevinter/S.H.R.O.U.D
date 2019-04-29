@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Npc
+  - Bullet
+  - PlayerBullet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Ground
+    uniqueID: 1508924585
+    locked: 0
+  - name: Bottom Mountains
+    uniqueID: 314911649
+    locked: 0
+  - name: Overlays
+    uniqueID: 310668485
+    locked: 0
+  - name: Objects
+    uniqueID: 3966208357
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 3475790019
+    locked: 0
+  - name: PlayerTop
+    uniqueID: 4259442339
+    locked: 0
+  - name: TopMountains
+    uniqueID: 3310484673
+    locked: 0
