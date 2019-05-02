@@ -14,8 +14,9 @@ SHROUD is a survival game where you can exchange body parts with robots for food
 Your goal is to find the gates of **New Nuric** and escape the wasteland.
 
 
-[[Link To The LD Page]]([https://ldjam.com/events/ludum-dare/44/shroud-synthetic-human-radiation-output-determined](https://ldjam.com/events/ludum-dare/44/shroud-synthetic-human-radiation-output-determined))
-[[Direct Link To The Game (itch.io)]]([https://thevinter.itch.io/shroud](https://thevinter.itch.io/shroud)
+[[Link To The LD Page]](https://ldjam.com/events/ludum-dare/44/shroud-synthetic-human-radiation-output-determined)
+
+[[Direct Link To The Game (itch.io)]](https://thevinter.itch.io/shroud])
 
 ### Controls:
 - [WASD] to move
