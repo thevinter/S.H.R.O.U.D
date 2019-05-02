@@ -34,14 +34,18 @@ public class Shooting : MonoBehaviour
 
     public void shoot(Vector3 dir)
     {
-        if(weapon == WeaponType.pistol)
+        if(PlayerStats.usesPistol)
         {
+            SoundManager.PlaySound("gunSound");
+            PlayerStats.pistolBullets--;
             Transform clone = Instantiate(pistolBullet, start.position, transform.rotation);
             clone.GetComponent<Rigidbody2D>().AddForce(dir * shootForce, ForceMode2D.Impulse);
 
         }
-        else if(weapon == WeaponType.rifle)
+        else if(PlayerStats.usesRifle)
         {
+            SoundManager.PlaySound("rifleSound");
+            PlayerStats.rifleBullets--;
             Transform clone = Instantiate(rifleBullet, start.position, transform.rotation);
             clone.GetComponent<Rigidbody2D>().AddForce(dir * shootForce, ForceMode2D.Impulse);
         }

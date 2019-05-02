@@ -111,10 +111,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51e75834bb1d5544ab0a8b6b75e9a35b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2
   laser: {fileID: 4051549505400052722, guid: 34b9cf4e953a93444be0453e02c41044, type: 3}
-  shootForce: 5
-  health: 30
+  shootForce: 9
+  health: 50
 --- !u!50 &6749638718250294823
 Rigidbody2D:
   serializedVersion: 4

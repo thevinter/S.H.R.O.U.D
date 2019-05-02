@@ -11,7 +11,10 @@ public enum ObjectType
     pistol,
     shotgun,
     rifle,
-
+    medkit,
+    radaway,
+    gbullets,
+    rbullets,
 }
 
 public class PickUp : MonoBehaviour
@@ -26,40 +29,58 @@ public class PickUp : MonoBehaviour
 
     }
 
+    private void OnLevelWasLoaded(int level)
+    {
+
+    }
+
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && isActive)
         {
+            SoundManager.PlaySound("pick");
             switch (type)
             {
                 case ObjectType.food:
                     PlayerStats.foodPieces++;
-                    Destroy(gameObject);
+                    gameObject.SetActive(false);
                     break;
                 case ObjectType.water:
                     PlayerStats.waterBottles++;
-                    Destroy(gameObject);
+                    gameObject.SetActive(false);
                     break;
                 case ObjectType.money:
                     PlayerStats.addMoney(moneyCount);
-                    Destroy(gameObject);
+
+                    gameObject.SetActive(false);
                     break;
                 case ObjectType.pistol:
                     if (!PlayerStats.hasPistol)
                     {
                         PlayerStats.hasPistol = true;
-                        Destroy(gameObject);
+                        PlayerStats.usesPistol = true;
+                        gameObject.SetActive(false);
                     }
                     break;
                 case ObjectType.rifle:
-                    if (!PlayerStats.hasRifle   )
+                    if (!PlayerStats.hasRifle && !PlayerStats.oneHanded)
                     {
                         PlayerStats.hasRifle = true;
-                        Destroy(gameObject);
+                        PlayerStats.usesRifle = true;
+                        gameObject.SetActive(false);
                     }
                     break;
+                case ObjectType.medkit:
+                        PlayerStats.healthPacks++;
+                    gameObject.SetActive(false);
+                    break;
+                case ObjectType.radaway:
+                    PlayerStats.radPacks++;
+                    gameObject.SetActive(false);
+                    break;
             }
+
         }
     }
 

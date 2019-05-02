@@ -8,11 +8,10 @@ public enum DropType
     food,
     water,
     rifle,
-    shotgun,
     gbullets,
     rbullets,
-    sbullets,
     medicine,
+    radaway,
 }
 
 public class Drop
@@ -35,15 +34,11 @@ public class Drop
                 break;
             case DropType.water:
                 this.dropName = "some water";
-                this.dropPrice = 100;
+                this.dropPrice = 40;
                 break;
             case DropType.rifle:
                 this.dropName = "a rifle";
                 this.dropPrice = 100;
-                break;
-            case DropType.shotgun:
-                this.dropName = "a shotgun";
-                this.dropPrice = 200;
                 break;
             case DropType.gbullets:
                 this.dropName = "some gun bullets";
@@ -53,14 +48,15 @@ public class Drop
                 this.dropName = "some rifle bullets";
                 this.dropPrice = 2;
                 break;
-            case DropType.sbullets:
-                this.dropName = "some shotgun bullets";
-                this.dropPrice = 5;
-                break;
             case DropType.medicine:
                 this.dropName = "some medicine";
                 this.dropPrice = 50;
                 break;
+            case DropType.radaway:
+                this.dropName = "some radaway";
+                this.dropPrice = 30;
+                break;
+
         }
     }
 

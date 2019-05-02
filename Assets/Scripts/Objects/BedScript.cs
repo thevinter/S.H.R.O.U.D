@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class BedScript : MonoBehaviour
 {
-
-    private bool isActive;
+    public bool canSleep = true;
+    public bool isActive;
     private bool sleeping;
     public GameObject fade;
 
@@ -17,13 +17,14 @@ public class BedScript : MonoBehaviour
 
     private void OnLevelWasLoaded(int level)
     {
+        canSleep = true;
         WorldVariables.IncrementCurrentDay();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isActive)
+        if (Input.GetKeyDown(KeyCode.Space) && isActive && canSleep)
         {
             print("aaaa");
             GoToSleep();
@@ -50,6 +51,10 @@ public class BedScript : MonoBehaviour
 
     private void GoToSleep()
     {
+        canSleep = false;
+        PlayerStats.currentHealth += 20;
+        PlayerStats.foodLevel -= 15;
+        PlayerStats.waterLevel -= 15;
         fade.GetComponent<FadeInOut>().StartFade();
     }
 

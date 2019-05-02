@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.UI;
 
 public class BodyChange : MonoBehaviour
 {
@@ -9,8 +10,10 @@ public class BodyChange : MonoBehaviour
     public PlayerController pc;
     public string spriteSheetName;
     public string oldSheet;
+    public Image sBlind;
+    public Image fBlind;
 
-    private void LateUpdate()
+    void LateUpdate()
     {
         var subSprites = Resources.LoadAll<Sprite>("Characters/" + spriteSheetName);
 
@@ -52,27 +55,35 @@ public class BodyChange : MonoBehaviour
         if (PlayerStats.lLeg == false && PlayerStats.rLeg == false)
         {
             PlayerStats.fullSlow = true;
-            pc.setSlow(0f);
+            pc.setSlow(0.1f);
         }
 
         if (PlayerStats.rEar == false)
         {
             PlayerStats.semiDeaf = true;
+            SoundManager.SetVolume(.35f);
         }
 
         if (PlayerStats.rEar == false && PlayerStats.lEar == false)
         {
             PlayerStats.fullDeaf = true;
+            SoundManager.SetVolume(0f);
         }
 
         if (PlayerStats.rArm == false)
         {
+            PlayerStats.hasRifle = false;
+            PlayerStats.usesRifle = false;
             PlayerStats.oneHanded = true;
         }
 
         if (PlayerStats.rArm == false && PlayerStats.lArm == false)
         {
             PlayerStats.canShoot = false;
+            PlayerStats.hasRifle = false;
+            PlayerStats.usesRifle = false;
+            PlayerStats.usesPistol = false;
+            PlayerStats.hasPistol = false;
         }
 
         if (PlayerStats.lung == false)
@@ -93,11 +104,22 @@ public class BodyChange : MonoBehaviour
         if (PlayerStats.rEye == false)
         {
             PlayerStats.semiBlind = true;
+            sBlind.gameObject.SetActive(true);
+        }
+        else
+        {
+            sBlind.gameObject.SetActive(false);
         }
 
-        if (PlayerStats.rEye == false)
+        if (PlayerStats.lEye == false)
         {
+            fBlind.gameObject.SetActive(true);
             PlayerStats.fullBlind = true;
+
+        }
+        else
+        {
+            fBlind.gameObject.SetActive(false);
         }
     }
 

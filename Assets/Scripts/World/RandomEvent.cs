@@ -12,7 +12,7 @@ public class RandomEvent : MonoBehaviour
     public GameObject buttonC;
     public GameObject buttonA;
     public GameObject buttonB;
-    public string question;
+    public string question; 
     public string choice_a;
     public string winText;
     public string loseText;

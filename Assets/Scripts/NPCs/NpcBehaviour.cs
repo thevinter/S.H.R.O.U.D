@@ -41,7 +41,9 @@ public class NpcBehaviour : MonoBehaviour
     public bool variable;
     public int price;
     private int sel;
-
+    public TextMeshProUGUI buy;
+    private string buydialogue = "";
+    public bool debug;
     private void OnLevelWasLoaded(int level)
     {
         
@@ -51,7 +53,7 @@ public class NpcBehaviour : MonoBehaviour
         }
         sel = Random.Range(0, 10);
         currentDrop = drop[sel];
-        if (variable)
+        if (variable && (npcType == NpcType.vendor || npcType == NpcType.common))
         {
             if (Random.Range(0, 2) == 1)
                 npcType = NpcType.vendor;
@@ -70,23 +72,39 @@ public class NpcBehaviour : MonoBehaviour
     {
         string name = currentDrop.dropName;
         int price = currentDrop.dropPrice;
-        if(npcType == NpcType.vendor)
+        if (npcType == NpcType.vendor)
+        {
+
+            buydialogue = "E - Buy";
             dialogue = "Hey kid, you wanna buy " + name + " for only " + price + "$? It's a deal!\nI have " + quantity + " of them";
-        if (npcType == NpcType.seller)
+        }
+        else if (npcType == NpcType.seller)
+        {
+            buydialogue = "E - Sell";
             dialogue = "I'm interested in your " + buyingPart + "! Can I have one?";
+        }
+            
     }
+
+
 
 
     // Update is called once per frame
     void Update()
     {
-        print(npcState);
+        if (debug)
+        {
+            print("This state is: " + npcType)
+;
+        }
         if (Input.GetKeyDown(KeyCode.Space) && isActive)
         {
             if (dialogueBox.activeInHierarchy)
             {
                 dialogueBox.SetActive(false);
-                if(npcState == State.ready)
+                SoundManager.PlaySound("menuSound");
+
+                if (npcState == State.ready)
                 {
                     npcState = State.idle;
                 }
@@ -95,6 +113,8 @@ public class NpcBehaviour : MonoBehaviour
             else if(npcState == State.idle)
             {
                 dialogueBox.SetActive(true);
+                SoundManager.PlaySound("menuSound");
+                buy.text = buydialogue;
                 text.text = dialogue;
                 if((npcType == NpcType.vendor || npcType == NpcType.seller) && npcState != State.sold && npcState != State.bought && npcState != State.over)
                 {
@@ -106,17 +126,20 @@ public class NpcBehaviour : MonoBehaviour
                 dialogueBox.SetActive(true);
                 dialogue = "I already sold you everything";
                 text.text = dialogue;
+                buy.text = buydialogue;
             }
             else if(npcState == State.bought)
             {
                 dialogueBox.SetActive(true);
                 dialogue = "I can't buy more. I dont want you to die huh!";
                 text.text = dialogue;
+                buy.text = buydialogue;
             }
             else if(npcState == State.over)
             {
                 dialogueBox.SetActive(true);
                 text.text = dialogue;
+                buy.text = buydialogue;
             }
 
         }
@@ -138,11 +161,13 @@ public class NpcBehaviour : MonoBehaviour
             else if(npcState == State.sold){
                 dialogue = "I already sold you everything";
                 text.text = dialogue;
+                buy.text = buydialogue;
             }
             else if(npcState == State.bought)
             {
                 dialogue = "I can't buy more. I dont want you to die huh!";
                 text.text = dialogue;
+                buy.text = buydialogue;
             }
         } 
     }
@@ -178,6 +203,7 @@ public class NpcBehaviour : MonoBehaviour
             GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().Donate(buyingPart);
             PlayerStats.addMoney(price);
             npcState = State.bought;
+            text.text = "Now me be more human!";
         }
         else
         {
@@ -199,7 +225,8 @@ public class NpcBehaviour : MonoBehaviour
                     {
                         if (PlayerStats.canShoot)
                         {
-                            PlayerStats.hasRifle = true;
+                            PlayerStats.hasPistol = true;
+                            PlayerStats.usesPistol = true;
                             Thanks();
                         }
                         else
@@ -224,6 +251,7 @@ public class NpcBehaviour : MonoBehaviour
                         if (PlayerStats.canShoot)
                         {
                             PlayerStats.hasRifle = true;
+                            PlayerStats.usesRifle = true;
                             Thanks();
                         }
                         else
@@ -234,18 +262,23 @@ public class NpcBehaviour : MonoBehaviour
                         text.text = "Hey, you already have a " + currentDrop.dropName;
                     }
                     break;
-                case DropType.gbullets:
-                    PlayerStats.pistolBullets += quantity;
+                case DropType.medicine:
+                    PlayerStats.healthPacks += quantity;
+                    Thanks();
+                    break;
+                case DropType.radaway:
+                    PlayerStats.healthPacks += quantity;
                     Thanks();
                     break;
                 case DropType.rbullets:
                     PlayerStats.rifleBullets += quantity;
                     Thanks();
                     break;
-                case DropType.medicine:
-                    PlayerStats.healthPacks += quantity;
+                case DropType.gbullets:
+                    PlayerStats.pistolBullets += quantity;
                     Thanks();
                     break;
+
             }
 
         }

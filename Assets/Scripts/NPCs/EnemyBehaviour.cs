@@ -74,6 +74,8 @@ public class EnemyBehaviour : MonoBehaviour
 
     private void Shoot()
     {
+        SoundManager.PlaySound("laserSound");
+
         Transform clone = Instantiate(laser, transform.position, transform.rotation);
         clone.GetComponent<Rigidbody2D>().AddForce((player.transform.position - transform.position).normalized * shootForce, ForceMode2D.Impulse);
     }

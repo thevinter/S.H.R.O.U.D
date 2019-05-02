@@ -9,7 +9,6 @@ public class Slide : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            print("rrr");
             if (obj.activeInHierarchy)
             {
                 obj.SetActive(false);

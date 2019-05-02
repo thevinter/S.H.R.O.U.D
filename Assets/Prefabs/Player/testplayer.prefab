@@ -203,6 +203,8 @@ MonoBehaviour:
   pc: {fileID: 0}
   spriteSheetName: 
   oldSheet: 
+  sBlind: {fileID: 0}
+  fBlind: {fileID: 0}
 --- !u!82 &180332327
 AudioSource:
   m_ObjectHideFlags: 0

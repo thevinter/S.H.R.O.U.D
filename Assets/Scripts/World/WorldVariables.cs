@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class WorldVariables 
 {
-    private static int currentDay = 1;
+    public static int currentDay = 0;
     public static bool dayChange = false;
     public static bool caveEvent = false;
     

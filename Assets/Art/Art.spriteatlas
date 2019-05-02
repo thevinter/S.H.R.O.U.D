@@ -42,10 +42,11 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: fd3a9623e25a73845b27962ebc50b301, type: 3}
-    totalSpriteSurfaceArea: 1204779
+    totalSpriteSurfaceArea: 1501067
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: d0f56eb0714dc474c826ec57e3154895, type: 3}
   - {fileID: 7985224292722296395, guid: 6e67974103de32a4d92ae7c560a2de07, type: 3}
   - {fileID: 7360942556102843023, guid: 6e67974103de32a4d92ae7c560a2de07, type: 3}
   - {fileID: -7757897919540560665, guid: 6e67974103de32a4d92ae7c560a2de07, type: 3}
@@ -65,8 +66,10 @@ SpriteAtlas:
   - {fileID: -2574127311534743270, guid: 6e67974103de32a4d92ae7c560a2de07, type: 3}
   - {fileID: 5451064527381872668, guid: 6e67974103de32a4d92ae7c560a2de07, type: 3}
   - {fileID: 1935915469779775459, guid: 6e67974103de32a4d92ae7c560a2de07, type: 3}
+  - {fileID: 21300000, guid: bf9b0d73bf9e61e4fbb6a3bff05d120a, type: 3}
   - {fileID: -5377185853383551331, guid: ebd9f3c3738cb7e49b19747bb45b3a81, type: 3}
   - {fileID: 7207082660435895030, guid: ebd9f3c3738cb7e49b19747bb45b3a81, type: 3}
+  - {fileID: 21300000, guid: dce7e704f2fb64b429431fc66ffe2c2c, type: 3}
   - {fileID: -7688744316884631394, guid: 39240824e31eb1a4fb3aa11fd1093bc0, type: 3}
   - {fileID: -884372910357510483, guid: 39240824e31eb1a4fb3aa11fd1093bc0, type: 3}
   - {fileID: 7830221884810533291, guid: 39240824e31eb1a4fb3aa11fd1093bc0, type: 3}
@@ -396,7 +399,32 @@ SpriteAtlas:
   - {fileID: 7136804723457046859, guid: ed91227df89263d4fbe9be855d929a6d, type: 3}
   - {fileID: 21300000, guid: bc383c7eee05ec44e962c4c9337c2ae1, type: 3}
   - {fileID: 21300000, guid: 4000ff9ebf201d44e86ab5994958b923, type: 3}
+  - {fileID: -9081592048278897201, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: -8491014544053947985, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: 6633310105824964898, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: -7297893958315858164, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: -347358352890302804, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: -7406985034232197369, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: -3690225008394232562, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: 6333044778877324588, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: 8595393530662880512, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: 5293425106607433142, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: 2946653727086767652, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: -4394405764592929354, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: 8308666618504235077, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: 856220931328366496, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: -6037954283335716150, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: 9156028949072604744, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: -939837514174372270, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: 2495939994924296890, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: -6650415022280582740, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: 5605552246015040004, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: 2242268968192948829, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: 8176557367013130449, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: 8245287050586129297, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
+  - {fileID: 4918509608399545213, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
   m_PackedSpriteNamesToIndex:
+  - shroud
   - RADIOATTIVOSUCA_8
   - RADIOATTIVOSUCA_9
   - RADIOATTIVOSUCA_6
@@ -416,8 +444,10 @@ SpriteAtlas:
   - RADIOATTIVOSUCA_10
   - RADIOATTIVOSUCA_13
   - RADIOATTIVOSUCA_12
+  - overlay
   - occhiopc_0
   - occhiopc_1
+  - cancello
   - proiettili_2
   - proiettili_1
   - proiettili_0
@@ -747,5 +777,29 @@ SpriteAtlas:
   - tilesetdeserto2_9
   - Tendone 2
   - bulletTest
+  - radioattivo 2_8
+  - radioattivo 2_9
+  - radioattivo 2_4
+  - radioattivo 2_5
+  - radioattivo 2_6
+  - radioattivo 2_7
+  - radioattivo 2_0
+  - radioattivo 2_1
+  - radioattivo 2_2
+  - radioattivo 2_3
+  - radioattivo 2_22
+  - radioattivo 2_23
+  - radioattivo 2_20
+  - radioattivo 2_21
+  - radioattivo 2_17
+  - radioattivo 2_16
+  - radioattivo 2_15
+  - radioattivo 2_14
+  - radioattivo 2_13
+  - radioattivo 2_12
+  - radioattivo 2_11
+  - radioattivo 2_10
+  - radioattivo 2_19
+  - radioattivo 2_18
   m_Tag: Art
   m_IsVariant: 0

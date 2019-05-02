@@ -48,17 +48,17 @@ public class PlayerController : MonoBehaviour
     public void TimePass()
     {
         PlayerStats.foodLevel -= 0.5f;
-        PlayerStats.waterLevel-= 1f;
-        PlayerStats.radLevel += 0.3f;
+        PlayerStats.waterLevel-= 0.7f;
+        PlayerStats.radLevel += 0.2f;
         if(PlayerStats.fastHunger)
             PlayerStats.foodLevel -= 0.2f;
         if(PlayerStats.fastThirst)
             PlayerStats.waterLevel -= .3f;
         if (PlayerStats.fastRad)
-            PlayerStats.radLevel += 0.2f;
+            PlayerStats.radLevel += 0.1f;
 
         if (PlayerStats.inRadZone)
-            PlayerStats.radLevel += 1f;
+            PlayerStats.radLevel += 2f;
 
     }
 
@@ -67,7 +67,7 @@ public class PlayerController : MonoBehaviour
         if(PlayerStats.foodPieces > 0)
         {
             PlayerStats.foodPieces--;
-            PlayerStats.foodLevel += 20;
+            PlayerStats.foodLevel += 35;
         }
  
     }
@@ -78,7 +78,7 @@ public class PlayerController : MonoBehaviour
         if (PlayerStats.waterBottles > 0)
         {
             PlayerStats.waterBottles--;
-            PlayerStats.waterLevel += 20;
+            PlayerStats.waterLevel += 40;
         }
         
     }
@@ -88,7 +88,7 @@ public class PlayerController : MonoBehaviour
         if(PlayerStats.healthPacks > 0)
         {
             PlayerStats.healthPacks--;
-            PlayerStats.currentHealth += 30;
+            PlayerStats.currentHealth += 50;
         }
         
     }
@@ -98,7 +98,7 @@ public class PlayerController : MonoBehaviour
         if(PlayerStats.radPacks > 0)
         {
             PlayerStats.radPacks--;
-            PlayerStats.radLevel -= 10;
+            PlayerStats.radLevel -= 30;
         }
  
     }
@@ -108,9 +108,11 @@ public class PlayerController : MonoBehaviour
     {
         CheckDeath();
         NormalizeStats();
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.P))
         {
-            PlayerStats.rArm = false;
+            PlayerStats.Reset();
+            transform.position = PlayerStats.playerCoords;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
         if (flipX)
             sr.flipX = true;
@@ -121,9 +123,8 @@ public class PlayerController : MonoBehaviour
         GetInput();
         if ((Input.GetButtonDown("AttackHor")) && currentState != PlayerState.attack)
         {
-            if(PlayerStats.usesPistol || PlayerStats.usesRifle)
+            if((PlayerStats.usesPistol && PlayerStats.pistolBullets > 0)|| (PlayerStats.usesRifle && PlayerStats.rifleBullets >0))
             {
-                Debug.Log("sparo");
                 if (shootingDir.x == -1)
                 {
                     flipX = false;
@@ -174,10 +175,16 @@ public class PlayerController : MonoBehaviour
         switch (p)
         {
             case BodyParts.eye: //eye
-                if(PlayerStats.rEye == false)
+                if (PlayerStats.rEye == false)
+                {
                     PlayerStats.lEye = false;
+                }
+
                 else
+                {
                     PlayerStats.rEye = false;
+                }
+                    
                 break;
             case BodyParts.arm:
                 if (PlayerStats.rArm == false)
@@ -272,9 +279,16 @@ public class PlayerController : MonoBehaviour
         );
     }
 
-    public void Step()
+    public void Step()  
     {
+        SoundManager.SetVolume(.3f);
+        if(PlayerStats.semiDeaf)
+            SoundManager.SetVolume(.15f);
         SoundManager.PlaySound("step");
+        SoundManager.SetVolume(.7f);
+        if (PlayerStats.semiDeaf)
+            SoundManager.SetVolume(.5f);
+
     }
 
     public void setSlow(float s)
