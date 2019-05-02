@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3de72a22ad181734c8e8a46cdc5404de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 6
 --- !u!50 &24706669557414503
 Rigidbody2D:
   serializedVersion: 4
@@ -337,7 +337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4502308749170864095}
   m_Layer: 0
-  m_Name: StartingShoot
+  m_Name: StartingShootLocation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

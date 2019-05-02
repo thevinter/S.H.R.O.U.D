@@ -15,6 +15,7 @@ public class SoundManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        DontDestroyOnLoad(this);
         stepSound = Resources.Load<AudioClip>("Sounds/step");
         gunSound = Resources.Load<AudioClip>("Sounds/shotGun");
         rifleSound = Resources.Load<AudioClip>("Sounds/shotRifle");
