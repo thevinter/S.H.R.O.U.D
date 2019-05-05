@@ -1,13 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: e8189459efd30884aacf144bb46ab899
-=======
-<<<<<<< HEAD:Assets/Scripts/Foreground.cs.meta
-guid: 599d9b0c3d616354499ec4a484a0d8d8
-=======
-guid: e8189459efd30884aacf144bb46ab899
->>>>>>> aa3ec7cf5b8446dc37f194d5f8809b98fe77c763:Assets/Scripts/NPCs/NpcBehaviour.cs.meta
->>>>>>> aa3ec7cf5b8446dc37f194d5f8809b98fe77c763
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

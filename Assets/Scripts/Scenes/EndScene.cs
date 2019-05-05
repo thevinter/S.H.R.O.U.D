@@ -7,6 +7,7 @@ public class EndScene : MonoBehaviour
 {
     public TextMeshProUGUI text;
     public AudioSource src;
+    private bool done = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +22,12 @@ public class EndScene : MonoBehaviour
 
     private IEnumerator Shoot()
     {
-        yield return new WaitForSeconds(30f);
-        src.PlayOneShot(SoundManager.endShot);
-        text.text = "Thanks for playing.\n\nGame developed for the 44th Ludum Dare by\n\nCoding: Nikita Brancatisano\nArt: Miriam Oajdea\nTesting and Balancing: Matteo Balestra and Christian Taccon";
+        if (!done)
+        {
+            yield return new WaitForSeconds(20f);
+            src.PlayOneShot(SoundManager.endShot);
+            text.text = "Thanks for playing.\n\nGame developed for the 44th Ludum Dare by\n\nCoding: Nikita Brancatisano\nArt: Miriam Oajdea\nTesting and Balancing: Matteo Balestra and Christian Taccon";
+        }
+        done = true;
     }
 }

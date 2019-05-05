@@ -8,6 +8,9 @@ TagManager:
   - Bullet
   - PlayerBullet
   - Enemy
+  - SignText
+  - SignBg
+  - Debug
   layers:
   - Default
   - TransparentFX

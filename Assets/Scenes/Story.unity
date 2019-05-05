@@ -402,9 +402,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "It's been twelve years since that day.\r\nBut i still remember it as if
     it was yesterday.\r\nFire, screams, explosions and blood.\r\n\r\nI've crossed
-    mountains, woods and rivers, but now i'm close.\r\nThis roulotte will be my last
-    refuge, tonight i'll sleep in a bed.\r\nNew Nuric, the Promised Land, is only
-    a few hours away.\n\nPress [Spacebar] to continue"
+    mountains, woods and rivers, but now i'm close.\r\nThis RV will be my last refuge,
+    tonight i'll sleep in a bed.\r\nNew Nuric, the Promised Land, is only a few hours
+    away.\n\nPress [Spacebar] to continue"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e328a95ba2dc1748a9ae18281e2a526, type: 2}
   m_sharedMaterial: {fileID: 7332718318844461548, guid: 5e328a95ba2dc1748a9ae18281e2a526,
@@ -450,7 +450,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 315
+  m_firstOverflowCharacterIndex: 310
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -474,12 +474,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1021466298}
-    characterCount: 344
+    characterCount: 338
     spriteCount: 0
     spaceCount: 61
     wordCount: 60
     linkCount: 0
-    lineCount: 16
+    lineCount: 15
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0

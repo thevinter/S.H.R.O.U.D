@@ -44,6 +44,7 @@ public class NpcBehaviour : MonoBehaviour
     public TextMeshProUGUI buy;
     private string buydialogue = "";
     public bool debug;
+
     private void OnLevelWasLoaded(int level)
     {
         
@@ -94,8 +95,7 @@ public class NpcBehaviour : MonoBehaviour
     {
         if (debug)
         {
-            print("This state is: " + npcType)
-;
+            print("type is: " + npcType);
         }
         if (Input.GetKeyDown(KeyCode.Space) && isActive)
         {
@@ -183,7 +183,12 @@ public class NpcBehaviour : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
+
         {
+            if (npcState == State.ready)
+            {
+                npcState = State.idle;
+            }
             isActive = false;
             dialogueBox.SetActive(false);
         }

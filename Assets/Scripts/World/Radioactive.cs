@@ -7,11 +7,15 @@ public class Radioactive : MonoBehaviour
     public GameObject fade;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player")){
+
+        if (collision.CompareTag("Player"))
+        {
             PlayerStats.inRadZone = true;
             fade.GetComponent<FadeInOut>().RadFadeIn();
         }
+
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -19,7 +23,9 @@ public class Radioactive : MonoBehaviour
             PlayerStats.inRadZone = false;
             fade.GetComponent<FadeInOut>().RadFadeOut();
         }
+       
     }
+
     // Start is called before the first frame update
     void Start()
     {

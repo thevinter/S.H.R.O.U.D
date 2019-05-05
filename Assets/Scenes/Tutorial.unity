@@ -459,8 +459,8 @@ MonoBehaviour:
     You can use [Tab] to check your body parts and [1,2,3] to cycle your weapons
 
 
-    You can rest in your roulotte to restore health, but doing so will consume hunger
-    and thirst
+    You can rest in your RV to restore health, but doing so will consume hunger and
+    thirst
 
 
     To consume items just click on them in the interface
@@ -515,7 +515,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 521
+  m_firstOverflowCharacterIndex: 515
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -539,7 +539,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1118820938}
-    characterCount: 549
+    characterCount: 543
     spriteCount: 0
     spaceCount: 109
     wordCount: 107

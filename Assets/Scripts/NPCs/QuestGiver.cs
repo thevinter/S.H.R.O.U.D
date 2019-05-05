@@ -32,7 +32,7 @@ public class QuestGiver : MonoBehaviour
                     dialogueBox.SetActive(false);
                 }
                 else if (page == 3)
-                {
+                {   
                     dialogueBox.SetActive(false);
                     page = 0;
                 }
@@ -88,6 +88,7 @@ public class QuestGiver : MonoBehaviour
         {
             isActive = false;
             dialogueBox.SetActive(false);
+            page = 0;
         }
     }
 }

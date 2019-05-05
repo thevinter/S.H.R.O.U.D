@@ -47,18 +47,18 @@ public class PlayerController : MonoBehaviour
 
     public void TimePass()
     {
-        PlayerStats.foodLevel -= 0.5f;
-        PlayerStats.waterLevel-= 0.7f;
+        PlayerStats.foodLevel -= 0.35f;
+        PlayerStats.waterLevel-= 0.55f;
         PlayerStats.radLevel += 0.2f;
         if(PlayerStats.fastHunger)
-            PlayerStats.foodLevel -= 0.2f;
+            PlayerStats.foodLevel -= 0.23f;
         if(PlayerStats.fastThirst)
-            PlayerStats.waterLevel -= .3f;
+            PlayerStats.waterLevel -= .33f;
         if (PlayerStats.fastRad)
-            PlayerStats.radLevel += 0.1f;
+            PlayerStats.radLevel += 0.13f;
 
         if (PlayerStats.inRadZone)
-            PlayerStats.radLevel += 2f;
+            PlayerStats.radLevel += 1.5f;
 
     }
 
