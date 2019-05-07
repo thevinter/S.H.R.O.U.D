@@ -4,3 +4,5 @@
 * Added sprint
 * Rewritten animation code
 * Fixed animation bugs
+* Removed enemy collisions
+* Enemies now render correctly on top of the player
