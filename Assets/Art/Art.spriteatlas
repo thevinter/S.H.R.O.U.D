@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: fd3a9623e25a73845b27962ebc50b301, type: 3}
-    totalSpriteSurfaceArea: 1501067
+    totalSpriteSurfaceArea: 834656
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -96,7 +96,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: d69c2d364068be0489c231628486a105, type: 3}
   - {fileID: 6941216849025124712, guid: 3ef8e3c6ce60e8f4c925a9acb0c52337, type: 3}
   - {fileID: -6282602708922638819, guid: 3ef8e3c6ce60e8f4c925a9acb0c52337, type: 3}
-  - {fileID: 21300000, guid: 88dd62d651e55174ab9f0856a0fe85ad, type: 3}
   - {fileID: 7724778361646189623, guid: fa183217b68d3f248b9e546222fd3a64, type: 3}
   - {fileID: -4990725565015497721, guid: fa183217b68d3f248b9e546222fd3a64, type: 3}
   - {fileID: 21300000, guid: c7e87297059ba25499fee028229ced81, type: 3}
@@ -398,7 +397,6 @@ SpriteAtlas:
   - {fileID: 2594350592753794688, guid: ed91227df89263d4fbe9be855d929a6d, type: 3}
   - {fileID: 7136804723457046859, guid: ed91227df89263d4fbe9be855d929a6d, type: 3}
   - {fileID: 21300000, guid: bc383c7eee05ec44e962c4c9337c2ae1, type: 3}
-  - {fileID: 21300000, guid: 4000ff9ebf201d44e86ab5994958b923, type: 3}
   - {fileID: -9081592048278897201, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
   - {fileID: -8491014544053947985, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
   - {fileID: 6633310105824964898, guid: f62766bf7fcf2ad458b53c3a0d6ef9b3, type: 3}
@@ -474,7 +472,6 @@ SpriteAtlas:
   - rovine2
   - virginbot_0
   - virginbot_1
-  - signtest
   - armbot_1
   - armbot_0
   - roulotte
@@ -776,7 +773,6 @@ SpriteAtlas:
   - tilesetdeserto2_8
   - tilesetdeserto2_9
   - Tendone 2
-  - bulletTest
   - radioattivo 2_8
   - radioattivo 2_9
   - radioattivo 2_4

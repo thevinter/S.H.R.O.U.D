@@ -11,7 +11,10 @@ public class SoundManager : MonoBehaviour
     public static AudioClip pick;
     public static AudioClip rifleSound;
     public static AudioClip endShot;
+    public static AudioClip warning;
     static AudioSource src;
+    static AudioSource srcEffect;
+    static AudioSource srcSteps;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +26,10 @@ public class SoundManager : MonoBehaviour
         menuSound = Resources.Load<AudioClip>("Sounds/menu");
         pick = Resources.Load<AudioClip>("Sounds/pickup");
         endShot = Resources.Load<AudioClip>("Sounds/endShot");
+        warning = Resources.Load<AudioClip>("Sounds/warning");
         src = GetComponent<AudioSource>();
+        srcEffect = transform.GetChild(0).GetComponent<AudioSource>();
+        srcSteps = transform.GetChild(1).GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -42,7 +48,9 @@ public class SoundManager : MonoBehaviour
         switch (clip)
         {
             case "step":
-                src.PlayOneShot(stepSound);
+                srcSteps.volume = Random.Range(.05f, .15f);
+                srcSteps.pitch = Random.Range(0.8f, 1.2f);
+                srcSteps.PlayOneShot(stepSound);
                 break;
             case "gunSound":
                 src.PlayOneShot(gunSound);
@@ -61,6 +69,9 @@ public class SoundManager : MonoBehaviour
                 break;
             case "endShot":
                 src.PlayOneShot(endShot);
+                break;
+            case "warning":
+                srcEffect.PlayOneShot(warning);
                 break;
         }
     }

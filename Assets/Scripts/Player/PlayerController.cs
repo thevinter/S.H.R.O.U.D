@@ -27,6 +27,8 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer sr;
     private float slowFactor = 1;
     private AudioSource step;
+    private bool isRunning = false;
+    public float boost = 2;
 
     // Start is called before the first frame update
     void Start()
@@ -59,6 +61,8 @@ public class PlayerController : MonoBehaviour
 
         if (PlayerStats.inRadZone)
             PlayerStats.radLevel += 1.5f;
+        if(isRunning)
+            PlayerStats.foodLevel -= .2f;
 
     }
 
@@ -74,7 +78,6 @@ public class PlayerController : MonoBehaviour
 
     public void DrinkWater()
     {
-        print("water");
         if (PlayerStats.waterBottles > 0)
         {
             PlayerStats.waterBottles--;
@@ -230,6 +233,7 @@ public class PlayerController : MonoBehaviour
 
     private void GetInput()
     {
+        isRunning = false;
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
         if (change.x == 1 && currentState != PlayerState.attack)
@@ -255,6 +259,10 @@ public class PlayerController : MonoBehaviour
             PlayerStats.usesRifle = true;
             PlayerStats.melee = false;
         }
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            isRunning = true;
+        }
     }
 
     private void UpdateAnimAndMove()
@@ -274,21 +282,19 @@ public class PlayerController : MonoBehaviour
 
     private void MoveEffector(Vector3 change)
     {
+        float tempSpeed = speed;
+        if (isRunning)
+        {
+            tempSpeed = tempSpeed + boost;
+        }
         rb.MovePosition(
-            transform.position + change * speed * Time.deltaTime * slowFactor
+            transform.position + change * tempSpeed * Time.deltaTime * slowFactor
         );
     }
 
     public void Step()  
     {
-        SoundManager.SetVolume(.3f);
-        if(PlayerStats.semiDeaf)
-            SoundManager.SetVolume(.15f);
-        SoundManager.PlaySound("step");
-        SoundManager.SetVolume(.7f);
-        if (PlayerStats.semiDeaf)
-            SoundManager.SetVolume(.5f);
-
+       SoundManager.PlaySound("step");
     }
 
     public void setSlow(float s)

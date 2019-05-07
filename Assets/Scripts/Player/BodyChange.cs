@@ -36,9 +36,8 @@ public class BodyChange : MonoBehaviour
     void Update()
     {
         print("The current Sprite is: " + spriteSheetName);
-        print("The current weapon is: " + PlayerStats.hasRifle);
         CheckForChanges();
-        ChangeSprite();
+        NewShit();
     }
 
     void CheckForChanges()
@@ -115,157 +114,61 @@ public class BodyChange : MonoBehaviour
         {
             fBlind.gameObject.SetActive(true);
             PlayerStats.fullBlind = true;
-
-        }
+        }   
         else
         {
             fBlind.gameObject.SetActive(false);
         }
     }
 
-    public void ChangeSprite()
+    void NewShit()
     {
-        if (!PlayerStats.usesPistol && !PlayerStats.usesRifle)
+        spriteSheetName = "Base";
+
+        if(!PlayerStats.rEye || !PlayerStats.lEye || PlayerStats.rLeg ||
+           !PlayerStats.lLeg || !PlayerStats.rArm || !PlayerStats.rArm)
+        spriteSheetName = "No";
+
+        if (!PlayerStats.rLeg)
         {
-            oldSheet = spriteSheetName;
+            spriteSheetName = spriteSheetName + "Leg";
         }
 
-        if (PlayerStats.rEye && PlayerStats.rEye && PlayerStats.rLeg && //Has everything
-            PlayerStats.lLeg && PlayerStats.rArm && PlayerStats.rArm)
+        if (!PlayerStats.lLeg)
         {
-            spriteSheetName = "Base";
+            spriteSheetName = spriteSheetName + "s";
         }
 
-        if (!PlayerStats.rEye && PlayerStats.lEye && PlayerStats.rLeg && //Non ha un occhio destro
-            PlayerStats.lLeg && PlayerStats.rArm && PlayerStats.lArm)
-        {
-            spriteSheetName = "NoEye";
+        if (!PlayerStats.rArm)
+        { 
+            print("i have no arm");
+            spriteSheetName = spriteSheetName + "Arm";
         }
 
-        if (!PlayerStats.rEye && !PlayerStats.lEye && PlayerStats.rLeg && //Non ha gli occhi
-            PlayerStats.lLeg && PlayerStats.rArm && PlayerStats.lArm)
+        if (!PlayerStats.lArm)
         {
-            spriteSheetName = "NoEyes";
+            spriteSheetName = spriteSheetName + "s";
         }
 
-        if (PlayerStats.rEye && PlayerStats.lEye && !PlayerStats.rLeg && //Non ha la gamba
-            PlayerStats.lLeg && PlayerStats.rArm && PlayerStats.lArm)
+        if (!PlayerStats.rEye)
         {
-            spriteSheetName = "NoLeg";
+            spriteSheetName = spriteSheetName + "Eye";
         }
 
-        /*if (PlayerStats.rEye && PlayerStats.lEye && !PlayerStats.rLeg && //non ha le gambe
-            !PlayerStats.lLeg && PlayerStats.rArm && PlayerStats.lArm)
+        if (!PlayerStats.lEye)
         {
-            spriteSheetName = "NoLegs";
-        }*/
-
-        if (PlayerStats.rEye && PlayerStats.lEye && PlayerStats.rLeg && //Non ha il braccio
-            PlayerStats.lLeg && !PlayerStats.rArm && PlayerStats.lArm)
-        {
-            spriteSheetName = "NoArm";
-
-        }
-
-        if (PlayerStats.rEye && PlayerStats.lEye && PlayerStats.rLeg && //Non ha le braccia
-            PlayerStats.lLeg && !PlayerStats.rArm && !PlayerStats.lArm)
-        {
-            spriteSheetName = "NoArms";
-
-        }
-
-        if (!PlayerStats.rEye && PlayerStats.lEye && !PlayerStats.rLeg && //Non ha l'occhio e la gamba
-            PlayerStats.lLeg && PlayerStats.rArm && PlayerStats.lArm)
-        {
-            spriteSheetName = "NoLegNoEye";
-
-        }
-
-      /*  if (!PlayerStats.rEye && PlayerStats.lEye && !PlayerStats.rLeg && //Non ha l'occhio e non ha le gambe
-            !PlayerStats.lLeg && PlayerStats.rArm && PlayerStats.lArm)
-        {
-        } */
-
-        if (!PlayerStats.rEye && PlayerStats.lEye && PlayerStats.rLeg && //non ha un occhio e non ha la mano 
-            PlayerStats.lLeg && !PlayerStats.rArm && PlayerStats.lArm)
-        {
-            spriteSheetName = "NoArmNoEye";
-        }
-
-        if (!PlayerStats.rEye && PlayerStats.lEye && PlayerStats.rLeg && //Non ha un occhio e non ha le mani
-            PlayerStats.lLeg && !PlayerStats.rArm && !PlayerStats.lArm)
-        {
-            spriteSheetName = "NoArmsNoEye";
-
-        }
-
-        if (!PlayerStats.rEye && !PlayerStats.lEye && !PlayerStats.rLeg && //Non ha gli occhi e non ha la gamba
-            PlayerStats.lLeg && PlayerStats.rArm && PlayerStats.lArm)
-        {
-            spriteSheetName = "NoLegNoEyes";
-
-        }
-
-        if (!PlayerStats.rEye && !PlayerStats.lEye && !PlayerStats.rLeg && //Non ha gli occhi e non ha le gambe
-            !PlayerStats.lLeg && PlayerStats.rArm && PlayerStats.lArm)
-        {
-        }
-
-        if (!PlayerStats.rEye && !PlayerStats.lEye && PlayerStats.rLeg && //Non ha gli occhi e non ha la mano
-            PlayerStats.lLeg && !PlayerStats.rArm && PlayerStats.lArm)
-        {
-            spriteSheetName = "NoArmNoEyes";
-
-        }
-        if (!PlayerStats.rEye && !PlayerStats.lEye && PlayerStats.rLeg && //Non ha gli occhi e non ha le mani
-            PlayerStats.lLeg && !PlayerStats.rArm && !PlayerStats.lArm)
-        {
-            spriteSheetName = "NoArmsNoEyes";
-
-        }
-        if (!PlayerStats.rEye && PlayerStats.lEye && !PlayerStats.rLeg && // Non ha l'occhio, non ha la mano, e non ha la gamba
-           PlayerStats.lLeg && !PlayerStats.rArm && PlayerStats.lArm)
-        {
-            spriteSheetName = "NoLegNoArmNoEye";
-        }
-        if (!PlayerStats.rEye && !PlayerStats.lEye && !PlayerStats.rLeg && //Non hagli occhi, non ha la mano e non ha la gamba
-           PlayerStats.lLeg && !PlayerStats.rArm && PlayerStats.lArm)
-        {
-            spriteSheetName = "NoLegNoArmNoEyes";
-
-        }
-        if (!PlayerStats.rEye && !PlayerStats.lEye && !PlayerStats.rLeg && //Senza occhi, senza mani, senza gamba
-           PlayerStats.lLeg && !PlayerStats.rArm && !PlayerStats.lArm)
-        {
-            spriteSheetName = "NoLegNoArmsNoEyes";
-
-        }
-
-        if (!PlayerStats.rEye && PlayerStats.lEye && !PlayerStats.rLeg && //senza mani, senza gamba
-           PlayerStats.lLeg && !PlayerStats.rArm && !PlayerStats.lArm)
-        {
-            spriteSheetName = "NoLegNoArms";
-
-        }
-        if (!PlayerStats.rEye && PlayerStats.lEye && !PlayerStats.rLeg && //senza mano, senza gamba
-          PlayerStats.lLeg && !PlayerStats.rArm && PlayerStats.lArm)
-        {
-            spriteSheetName = "NoLegNoArm";
-
+            spriteSheetName = spriteSheetName + "s";
         }
 
         if (PlayerStats.usesPistol)
         {
-            spriteSheetName = oldSheet;
             spriteSheetName = spriteSheetName + "Gun";
-            print("PistolSprite" + spriteSheetName);
         }
 
         if (PlayerStats.usesRifle)
         {
-            spriteSheetName = oldSheet;
             spriteSheetName = spriteSheetName + "Rifle";
-            print("RifleSprite +" + spriteSheetName);
         }
+
     }
 }
