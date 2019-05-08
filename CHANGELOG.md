@@ -11,6 +11,10 @@
 * Bullets are now bigger
 * Removed herobrine
 
+### Version  0.1.12.2
+
+* Fixed items and weapons not resetting even after a full restart
+
 ## Version 0.1.11
 
 * Added audio and video cue that informs the player when he's almost dead
