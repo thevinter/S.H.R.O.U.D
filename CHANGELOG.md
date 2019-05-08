@@ -1,5 +1,6 @@
 ## Version 0.1.12
 
+* Sleeping in the RV now restores health, food, water
 * Items don't respawn after sleeping
 * Chests stay open after sleeping
 * Fixed weapon bugs
