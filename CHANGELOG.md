@@ -1,6 +1,7 @@
 ## Version 0.1.12
 
 * Added AZERTY support!
+* Fixed WebGL audio
 * Sleeping in the RV now restores health, food, water
 * Items don't respawn after sleeping
 * Chests stay open after sleeping
