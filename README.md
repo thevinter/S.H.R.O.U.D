@@ -13,6 +13,9 @@ SHROUD is a survival game where you can exchange body parts with robots for food
 
 Your goal is to find the gates of **New Nuric** and escape the wasteland.
 
+You can sleep in your RV to recover health, thirst and hunger. The game is still not balanced around this mechanic so for the optimal experience don't exploit it.
+
+Use healthpacks to heal, radaways to get rid of radiations and food and water to survive.
 
 [[Link To The LD Page]](https://ldjam.com/events/ludum-dare/44/shroud-synthetic-human-radiation-output-determined)
 
@@ -25,12 +28,6 @@ Your goal is to find the gates of **New Nuric** and escape the wasteland.
 - [Left/Right arrow] to shoot
 - [P] to restart the level
 - [Click] on the objects in the interface to use them
-### Known Bugs
-* Visual bugs with some of the environement 
-* Some animations not working properly
-* Nuclear overlay disappearing while colliding with the green pool in the nuclear zone
-* Some NPCs have empty dialogues
-* Some pickups get picked up twice
 
 ### Credits
 -   Coding: Nikita Brancatisano (thevinter)
