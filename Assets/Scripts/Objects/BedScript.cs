@@ -26,7 +26,6 @@ public class BedScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && isActive && canSleep)
         {
-            print("aaaa");
             GoToSleep();
         }
         
@@ -53,8 +52,8 @@ public class BedScript : MonoBehaviour
     {
         canSleep = false;
         PlayerStats.currentHealth += 20;
-        PlayerStats.foodLevel -= 15;
-        PlayerStats.waterLevel -= 15;
+        PlayerStats.foodLevel += 15;
+        PlayerStats.waterLevel += 15;
         fade.GetComponent<FadeInOut>().StartFade();
     }
 

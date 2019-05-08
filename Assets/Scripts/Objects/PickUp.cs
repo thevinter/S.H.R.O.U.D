@@ -31,12 +31,20 @@ public class PickUp : MonoBehaviour
 
     private void OnLevelWasLoaded(int level)
     {
-
+        if (PickedItems.IsPresent(this.gameObject.transform.position.magnitude))
+        {
+            print("found!");
+            GameObject.Destroy(this.gameObject);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+        foreach (float g in PickedItems.itemPositions)
+        {
+            print("I have " + g);
+        }
         if (Input.GetKeyDown(KeyCode.Space) && isActive)
         {
             SoundManager.PlaySound("pick");
@@ -60,6 +68,7 @@ public class PickUp : MonoBehaviour
                     {
                         PlayerStats.hasPistol = true;
                         PlayerStats.usesPistol = true;
+                        PlayerStats.usesRifle = false;
                         gameObject.SetActive(false);
                     }
                     break;
@@ -68,6 +77,7 @@ public class PickUp : MonoBehaviour
                     {
                         PlayerStats.hasRifle = true;
                         PlayerStats.usesRifle = true;
+                        PlayerStats.usesPistol = false;
                         gameObject.SetActive(false);
                     }
                     break;
@@ -80,7 +90,7 @@ public class PickUp : MonoBehaviour
                     gameObject.SetActive(false);
                     break;
             }
-
+            PickedItems.AddItem(this.gameObject.transform.position.magnitude);
         }
     }
 

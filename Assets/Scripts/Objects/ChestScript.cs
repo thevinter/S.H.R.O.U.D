@@ -19,10 +19,23 @@ public class ChestScript : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
     }
 
+    private void OnLevelWasLoaded(int level)
+    {
+        if (PickedItems.IsOpened(transform.position.magnitude))
+        {
+            print("opened chest");
+            opened = true;
+ 
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
-        print(dialogueBox);
+        if (opened)
+        {
+            sr.sprite = sprite;
+        }
         if (Input.GetKeyDown(KeyCode.Space) && isActive && !opened)
         {
             switch (type)
@@ -91,6 +104,8 @@ public class ChestScript : MonoBehaviour
                     text.text = "You found 50 rifle bullets!";
                     break;
             }
+
+            PickedItems.OpenChest(transform.position.magnitude);
 
         }
         else if(Input.GetKeyDown(KeyCode.Space) && isActive && dialogueBox.activeInHierarchy)

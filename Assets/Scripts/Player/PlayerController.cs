@@ -124,9 +124,9 @@ public class PlayerController : MonoBehaviour
         GetShootingDir();
         change = Vector3.zero;
         GetInput();
-        if ((Input.GetButtonDown("AttackHor")) && currentState != PlayerState.attack)
+        if ((Input.GetButton("AttackHor")) && currentState != PlayerState.attack)
         {
-            if((PlayerStats.usesPistol && PlayerStats.pistolBullets > 0)|| (PlayerStats.usesRifle && PlayerStats.rifleBullets >0))
+            if((PlayerStats.usesPistol && PlayerStats.pistolBullets > 0) || (PlayerStats.usesRifle && PlayerStats.rifleBullets >0))
             {
                 if (shootingDir.x == -1)
                 {
@@ -304,12 +304,9 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator Attack(float delay, Vector3 dir)
     {
-        while (Input.GetButton("AttackHor"))
-        {
-            shootScript.shoot(dir);
-            currentState = PlayerState.attack;
-            yield return new WaitForSeconds(delay);
-        }
+        currentState = PlayerState.attack;
+        shootScript.shoot(dir);
+        yield return new WaitForSeconds(delay);
         currentState = PlayerState.walk;
     }
 

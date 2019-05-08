@@ -17,7 +17,8 @@ public class Shooting : MonoBehaviour
     public Transform pistolBullet;
     public Transform rifleBullet;
     public float shootForce;
-    public Transform start;
+    public Transform startRifle;
+    public Transform startPistol;
 
     // Start is called before the first frame update
     void Start()
@@ -34,19 +35,19 @@ public class Shooting : MonoBehaviour
 
     public void shoot(Vector3 dir)
     {
-        if(PlayerStats.usesPistol)
+        if(PlayerStats.usesPistol && PlayerStats.pistolBullets > 0)
         {
             SoundManager.PlaySound("gunSound");
             PlayerStats.pistolBullets--;
-            Transform clone = Instantiate(pistolBullet, start.position, transform.rotation);
+            Transform clone = Instantiate(pistolBullet, startRifle.position, transform.rotation);
             clone.GetComponent<Rigidbody2D>().AddForce(dir * shootForce, ForceMode2D.Impulse);
 
         }
-        else if(PlayerStats.usesRifle)
+        else if(PlayerStats.usesRifle && PlayerStats.rifleBullets > 0)
         {
             SoundManager.PlaySound("rifleSound");
             PlayerStats.rifleBullets--;
-            Transform clone = Instantiate(rifleBullet, start.position, transform.rotation);
+            Transform clone = Instantiate(rifleBullet, startPistol.position, transform.rotation);
             clone.GetComponent<Rigidbody2D>().AddForce(dir * shootForce, ForceMode2D.Impulse);
         }
         
@@ -54,11 +55,11 @@ public class Shooting : MonoBehaviour
 
     private void CycleWeapon()
     {
-        if (PlayerStats.hasPistol)
+        if (PlayerStats.usesPistol)
         {
             ChangeWeapon(WeaponType.pistol);
         }
-        else if (PlayerStats.hasRifle)
+        else if (PlayerStats.usesRifle)
         {
             ChangeWeapon(WeaponType.rifle);
         }
