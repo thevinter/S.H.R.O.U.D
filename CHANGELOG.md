@@ -1,5 +1,7 @@
 ## Version 0.1.12
 
+### Version 0.1.12.1
+
 * Added AZERTY support!
 * Fixed WebGL audio
 * Sleeping in the RV now restores health, food, water
